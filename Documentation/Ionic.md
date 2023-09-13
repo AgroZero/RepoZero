@@ -106,7 +106,7 @@ async ionViewWillEnter() {
 }
 ```
 
-If dot notation doesn't work, setting `"noPropertyAccessFromIndexSignature"` to false in `tsconfig.json` will fix that, otherwise if this makes you uncomfortable - doing the following will work.
+Tip: If dot notation doesn't work, setting `"noPropertyAccessFromIndexSignature"` to false in `tsconfig.json` will fix that, otherwise if this makes you uncomfortable - doing the following will work.
 
 ```angular
 get password() {
