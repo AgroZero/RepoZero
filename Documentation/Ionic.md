@@ -150,3 +150,5 @@ Here is a quick form snippet :)
   </ion-grid>
 </form>  
 ```
+
+Here is a useful [tutorial](https://www.positronx.io/ionic-form-validation-tutorial/)
