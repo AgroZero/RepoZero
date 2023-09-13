@@ -53,8 +53,8 @@ Make sure you have a working Environment.
 
 Import `ReactiveFormsModule`into the [pageName].module.ts of the page you want to use the forms on.
 
-<u>Example:</u>
-```
+<u>[pageName].module.ts example:</u>
+```angular
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 ...
 @NgModule({
@@ -70,10 +70,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 export class RegisterPageModule {}
 ```
 
-pageName.page.ts
-
-<u>Example:</u>
-```
+<u>[pageName].page.ts example:</u>
+```angular
 Import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 ...
 protected form: FormGroup;
@@ -110,15 +108,15 @@ async ionViewWillEnter() {
 
 If dot notation doesn't work, setting `"noPropertyAccessFromIndexSignature"` to false in `tsconfig.json` will fix that, otherwise if this makes you uncomfortable - doing the following will work.
 
-```
+```angular
 get password() {
   return this.f[password];
 }
 ```
 
-Here is a quick form snippet
+Here is a quick form snippet :)
 
-```
+```ionic
 <form [formGroup]="form">
     <ion-grid>
       <ion-row class="ion-align-items-center ion-justify-content-center">
