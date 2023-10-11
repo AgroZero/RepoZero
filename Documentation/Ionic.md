@@ -7,6 +7,7 @@
 1. Install [node.js](https://nodejs.org/en) 
 > Download and install the LTS (Long Term Support) version as it's the most stable and is least likely to cause problems. 
 2. Open Command prompt.
+> Tip: Make sure that you're in your c:\ drive.
 3. Run `npm install -g @angular/cli` to install Angular.
 4. Run `npm install -g @ionic/cli` to install Ionic.
 5. Create a new folder that will contain the project.
@@ -14,7 +15,7 @@
 7. Open a New Terminal in Visual Studio Code. 
 8. Add a command prompt terminal using the `+` icon on top right side of the terminal window.
 9. Run `$ ionic start [name] [template] [options]` to create your PWA (Progressive Web Application).
->name - Name of your project.
+> Tip: name - Name of your project.
 
 |Templates    | description |
 | ----- | ----------- |
@@ -25,7 +26,7 @@
 | my-first-app | A template for the "Build Your First App" tutorial |
 
 Personal Preference.
-> `ionic start myApp blank`.
+> `ionic start myApp blank` - This gives me more flexability in my project.
 
 10. Create a page or service.
 > `ionic -g [option] [pagePath/pageName]`.
