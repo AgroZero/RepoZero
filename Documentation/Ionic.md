@@ -8,7 +8,7 @@
 > Download and install the LTS (Long Term Support) version as it's the most stable and is least likely to cause problems. 
 2. Open Command prompt.
 3. Run `npm install -g @angular/cli` to install Angular.
-4. Run `npm install -g @angular/cli` to install Ionic.
+4. Run `npm install -g @ionic/cli` to install Ionic.
 5. Create a new folder that will contain the project.
 6. Open the project folder in Visual Studio Code. 
 7. Open a New Terminal in Visual Studio Code. 
