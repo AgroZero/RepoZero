@@ -1,3 +1,4 @@
+<base target="_blank">
 # Angular - Ionic
 [Ionic](https://ionicframework.com/) is an open source mobile UI toolkit for building modern, high quality cross-platform mobile apps from a single code base in Angular and React. This document focuses on [Angular](https://angular.io/guide/what-is-angular) which is a TypeScript-based, free and open-source web application framework. 
 >[TypeScript](https://www.typescriptlang.org/) adds additional syntax to JavaScript to support a **tighter integration with your editor**. TypeScript code converts to JavaScript, which **runs anywhere JavaScript runs**: In a browser, on Node.js and other things not in this document :) 
@@ -15,23 +16,25 @@
 6. Run `$ ionic start [name] [template] [options]` to create your PWA (Progressive Web Application).
 >name - Name of your project.
 
-Templates    | description
-------------------------------------------------------------------------
-tabs         | A starting project with a simple tabbed interface
-sidemenu     | A starting project with a side menu with navigation in the content area
-blank        | A blank starter project
-list         | A starting project with a list
-my-first-app | A template for the "Build Your First App" tutorial
+|Templates    | description |
+| ----- | ----------- |
+| tabs         | A starting project with a simple tabbed interface |
+| sidemenu     | A starting project with a side menu with navigation in the content area |
+| blank        | A blank starter project |
+| list         | A starting project with a list |
+| my-first-app | A template for the "Build Your First App" tutorial |
 
->Personal Preference - `ionic start myApp blank`.
->Create a page or service - ionic g [option] [pagePath/pageName].
+Personal Preference.
+> `ionic start myApp blank`.
+Create a page or service.
+> `ionic -g [option] [pagePath/pageName]`.
 
--g Options   | description
-------------------------------------------------------------------------
-page         | A page of your choice
-component    | A component that can be used anywhere in the project
-directive    | A component but modified (I need to do more research on this)
-service      | A service for functionality or using APIs
+| -g Options   | description |
+| ----- | ----------- |
+| page         | A page of your choice |
+| component    | A component that can be used anywhere in the project |
+| directive    | A component but modified (I need to do more research on this) |
+| service      | A service for functionality or using APIs |
 
 ## Using pre-created Environment 
 A pre-created Environment should have a `package.json` file in the root folder. This file contains the project dependencies, make sure it exists.
@@ -51,7 +54,7 @@ Make sure you have a working Environment.
 
 ## FormBuilder | FormGroup
 
-Import `ReactiveFormsModule`into the [pageName].module.ts of the page you want to use the forms on.
+Import `ReactiveFormsModule` into the [pageName].module.ts of the page you want to use the forms on.
 
 <u>Example:</u>
 ```
