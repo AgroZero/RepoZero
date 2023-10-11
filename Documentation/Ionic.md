@@ -27,7 +27,7 @@
 Personal Preference.
 > `ionic start myApp blank`.
 
-Create a page or service.
+7. Create a page or service.
 > `ionic -g [option] [pagePath/pageName]`.
 
 | -g Options   | description |
