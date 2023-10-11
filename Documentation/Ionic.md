@@ -11,9 +11,9 @@
 4. Run `npm install -g @angular/cli` to install Ionic.
 5. Create a new folder that will contain the project.
 6. Open the project folder in Visual Studio Code. 
-4. Open a New Terminal in Visual Studio Code. 
-5. Add a command prompt terminal using the `+` icon on top right side of the terminal window.
-6. Run `$ ionic start [name] [template] [options]` to create your PWA (Progressive Web Application).
+7. Open a New Terminal in Visual Studio Code. 
+8. Add a command prompt terminal using the `+` icon on top right side of the terminal window.
+9. Run `$ ionic start [name] [template] [options]` to create your PWA (Progressive Web Application).
 >name - Name of your project.
 
 |Templates    | description |
@@ -27,7 +27,7 @@
 Personal Preference.
 > `ionic start myApp blank`.
 
-7. Create a page or service.
+10. Create a page or service.
 > `ionic -g [option] [pagePath/pageName]`.
 
 | -g Options   | description |
